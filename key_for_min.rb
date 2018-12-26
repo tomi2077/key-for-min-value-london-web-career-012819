@@ -9,4 +9,4 @@ def key_for_min_value(name_hash)
     name_hash.each do |key, value|
       array << value
     end
-  min_num = array[0]
+    min_num = array[0]
