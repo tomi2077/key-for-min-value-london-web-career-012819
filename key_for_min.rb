@@ -6,6 +6,7 @@ def key_for_min_value(name_hash)
     if value == name_hash.value.max 
       return key
     elsif name_hash.empty?
+      return
     end
   end
 end
