@@ -11,5 +11,6 @@ def key_for_min_value(name_hash)
     end
     
     min_num =array[0]
-    name_hash
+    array.each do |value|
+      if 
     
